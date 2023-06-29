@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,300&family=Staatliches&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family:'IBM Plex Sans', sans-serif; ;
+}
+.conteint{
+  height: 100vh;
+  background-color: #1E1E1E;
+}
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+#lineBotton{
+  border:10px solid #8257E5;
+}
+#principal{
+  display: flex;
+  flex-direction: row-reverse;
+}
+#cover{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+#img{
+  width: 800px;
+  height: 700px;
+}
+#boraCodar{
+  position: absolute;
+  top: 75%;
+  left:5%;
+  transform: translate(-50%-50%);
+  padding: 25px;
+  text-align: center;
+  color: #C6ADFF;
+  font-size: 25px;
+  border-radius: 40px;
+  background-color: #202024;
+}
+#chave{
+
+  color: #8257E5;
+}
+#chave2{
+  color: #8257E5;
+}
+#textH1{
+  display: flex;
+  color: #8D8D99;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+h1{
+  color: #fff;
+  font-size: 75pt;
+}
+h2{
+  font-family: 'Staatliches', cursive;;
+  font-weight: 300;
+  color: #C4C4CC;
+  font-weight: 100;
+  margin-bottom: 50PX;
+}
+#desafio{
+  margin-left: 10px;
+  font-weight: 800;
+  font-family: 'Staatliches', cursive;;
+  font-size: 25pt;
+}
